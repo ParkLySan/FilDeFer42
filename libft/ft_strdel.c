@@ -17,10 +17,3 @@ void	ft_strdel(char **as)
 {
 	ft_memdel((void**)as);
 }
-
-int main (int argc, char **argv)
-{
-	printf("%d"ft_strdel[1]);
-	argc++;
-	return (0);
-}

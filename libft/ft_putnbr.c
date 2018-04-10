@@ -13,7 +13,7 @@
 #include "libft.h"
 #include <inttypes.h>
 
-void	ft_putnbr(intmax_t n)
+void	ft_putnbr(int n)
 {
 	ft_putnbr_fd(n, 1);
 }
